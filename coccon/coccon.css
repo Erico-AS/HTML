@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    
+}
+
+#menu {
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    max-width: 19.375rem;
+    min-height: 118vh;
+    background-color: #18181c;
+
+    left: 0%;
+    top: 0%;
+}
+
+#logo {
+    position: relative;
+    padding: 30px 23px;
+    left: 19%;
+}
+
+nav {
+    position: relative;
+    margin-top: 20%;
+}
+#lista1 {
+    position: relative;
+    list-style: none;
+    left: 7%;
+}
+
+li {
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 34%;
+    margin-left: -20%;
+    padding: 12px 25px 12px 50px;
+
+    font-size: 0.80rem;
+    color: #fff;
+
+
+}
+
+li:hover {
+    transition: all .4s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    background-color: #99896e;
+}
+
+.liDiferente{
+    background-color: #99896e;
+}
+
+/*Segunda lista de botões*/
+
+#seg_btn {
+    position: relative;
+    left: 7%;
+}
+
+p {
+    font-weight: 500;
+    margin-left: 3.40rem;
+    margin-top: 5rem;
+    margin-bottom: 1.563rem;
+    color: #99896e;
+}
+
+/*Logos*/
+
+#social-media{
+    position: relative;
+    display: inline;
+    left: 27%;
+
+
+}
+
+.social-logo{
+    width: 7%;
+    height: 7%;
+    padding: 0.3rem;
+    margin-top: 19rem;
+    margin-bottom: -16rem;
+}
+
+.social-logo:hover{
+    cursor: pointer;
+    color: #24a520;
+}
+
+/*Parágrafo concludente*/
+
+#copy {
+    color: #99896e;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-left: 2.5%;
+    text-align: center;
+    font-size: 12px;
+
+    margin-top: 100%;
+
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #99896e;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #9c9ca9;
+    transition: all .4s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+/*Imagens*/
+
+#grid1 {
+    position: absolute;
+    padding-top: 3em;
+    min-width: 50em;
+    min-height: 66em;
+    margin-left: 22em;
+
+    cursor: crosshair;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    transition: all ease-in-out .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    color: black;
+}
+
+.flutuar {
+    float: left;
+}
+
+.flutuar:hover {
+    transition: all ease-in-out .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transform-style: black;
+    opacity: 0.65;
+    transform: scale(1.02);
+} 
